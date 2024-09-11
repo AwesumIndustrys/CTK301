@@ -1,0 +1,44 @@
+nav {
+    background-color: lightsalmon;
+}
+
+h1 {
+    background-color: darkred;
+    color: white;
+}
+
+h2 {
+    background-color: red;
+    color: white;
+}
+
+h3 {
+    background-color: black;
+    color: #26a7de;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+    background-color: cornflowerblue;
+    font-size: 1em;
+}
+
+a:visited {
+    color: green;
+}
+
+#wow {
+background-color: aqua;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.information {
+    background-color: darkgoldenrod;
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
