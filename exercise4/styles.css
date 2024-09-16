@@ -1,0 +1,43 @@
+#imblue_ifiweregreeniwoulddie {
+    background-color: skyblue;
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: blue;
+}
+
+h4 {
+    background-color: green;
+    color: yellow;
+}
+
+.yellowtime {
+    background-color: yellow;
+}
+
+#emphasis {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.redmode {
+    color: red;
+}
+
+.mintyfresh {
+    background-color: mediumspringgreen;
+}
