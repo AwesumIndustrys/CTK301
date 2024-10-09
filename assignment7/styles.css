@@ -1,0 +1,168 @@
+body {
+    background-color: gray;
+}
+
+#wrapper {
+    background-color: white;
+    border: 3px solid darkblue;
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+header {
+    padding: 1em;
+    border-bottom: 3px solid darkblue;
+    grid-column: span 6;
+    background-image: linear-gradient(to top, #0000ff, #0041ff, #005fff, #0078ff, #008dff);
+}
+
+h1 {
+    margin: 0;
+    padding: 0.25em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #64CAFC;
+}
+
+h1 a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 6;
+    border-bottom: 3px solid darkblue;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top, #0000ff, #0041ff, #005fff, #0078ff, #008dff);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    border-right: 3px solid darkblue;
+    width: 200px;
+}
+
+nav li a {
+    background-image: linear-gradient(to top, #0000ff, #0041ff, #005fff, #0078ff, #008dff);
+    display: block;
+    text-decoration: none;
+    color: #64CAFC;
+    margin: 0;
+    padding: 0.75em 1.25em;
+    font-weight: bold;
+}
+nav li a:hover {
+    background-image: linear-gradient(to bottom, #0000ff, #0041ff, #005fff, #0078ff, #008dff);
+    color: white;
+    text-decoration: underline;
+}
+
+.currentPage {
+    color: white;
+}
+
+main {
+    padding: 1em;
+    grid-column: span 4;
+}
+
+main p {
+    margin: 0;
+    padding-bottom: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main p a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+main p a:hover {
+    color:#0000ff;
+    text-decoration: underline;
+}
+
+aside {
+    padding: 1em;
+    grid-column: span 2;
+    background-color: lightskyblue;
+}
+
+aside p {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h2 {
+    color: rgb(33, 96, 212);
+    border-bottom: 2px solid rgb(33, 96, 212);
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 0 0.5em 0;
+    padding-bottom: 0.25em;
+    font-weight: normal;
+}
+
+#goleft {
+    float: left;
+    border: 2px solid blue;
+    margin: 0 0.5em 0.5em 0;
+}
+
+#goright {
+    float: right;
+    border: 2px solid blue;
+    margin: 0 0.5em 0.5em 0;
+}
+
+.entry {
+    margin: 1em;
+    grid-column: span 2;
+}
+
+.mugshot {
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.entry p {
+    margin: 0;
+    padding-bottom: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.entry p a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+.entry p a:hover {
+    color:#0000ff;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #cc0000;
+    grid-column: span 6;
+    padding: 1em;
+    border-top: 3px solid darkblue;
+}
