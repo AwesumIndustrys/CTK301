@@ -1,0 +1,196 @@
+body {
+  background-color: #999999;
+  margin: 0;
+  padding: 0;
+  font-family: "Sour Gummy", 'Helvetica', Arial, sans-serif;
+  color: white;
+}
+
+#wrapper {
+  /*margin: 24px auto;
+  width: 1200px;
+  height: 600px;
+  border: 1px solid magenta;*/
+  margin: 0px auto;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 8;
+  padding: 8px 24px 24px 24px;
+  position: relative;
+  display: flex;
+}
+
+header img {
+  display: block;
+  width: 20%;
+  /*border: 1px solid white;*/
+  transition: width 0.5s;
+  margin: 0;
+  padding: 0;
+}
+
+header img:hover {
+  width: 25%;
+}
+
+nav {
+  grid-column: span 4;
+  /*max-height: 600px;*/
+  margin: 0px auto;
+  padding: 0px;
+  background-color: #000000;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 21px;
+  transition: background-color 0.5s, height 0.5s, color 0.5s;
+}
+
+nav li a:hover {
+  background-color: #111;
+  height: 29px;
+  color: black;
+}
+
+#link1 {
+  background-color: darkred;
+}
+
+#link1:hover {
+  background-color: red;
+}
+
+#link2 {
+  background-color: rgb(185, 102, 0);
+}
+
+#link2:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+#link3 {
+  background-color: rgb(172, 172, 0);
+}
+
+#link3:hover {
+  background-color: yellow;
+}
+
+#link4 {
+  background-color: darkgreen;
+}
+
+#link4:hover {
+  background-color: green;
+}
+
+#link5 {
+  background-color: darkblue;
+}
+
+#link5:hover {
+  background-color: blue;
+}
+
+main {
+  grid-column: span 12;
+  margin: 1em auto;
+  border: 1px solid white;
+  background-color: #333333;
+  width: 75%;
+  border-radius: 16px;
+  padding: 8px 16px;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: lightcyan;
+  text-decoration: underline;
+}
+
+main h1 {
+  color: #f38f8f;
+  padding: 8px 0;
+  border-top: 1px solid #F38F8F;
+  text-align: center;
+  border-bottom: 1px solid #F38F8F;
+  animation: border-change 9s infinite;
+  animation: color-change 9s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #F38F8F; }
+  16.667% { color: #FFCC8E; }
+  33.333% { color: #FFF78E }
+  50% { color: #8EC79F }
+  66.667% { color: #8EB0FF }
+  83.333% { color: #C291CA}
+  100% { color: #F38F8F; }
+}
+
+@keyframes border-change {
+  0% { border-color: #F38F8F; }
+  16.667% { border-color: #FFCC8E; }
+  33.333% { border-color: #FFF78E }
+  50% { border-color: #8EC79F }
+  66.667% { border-color: #8EB0FF }
+  83.333% { border-color: #C291CA}
+  100% { border-color: #F38F8F; }
+}
+
+.photo_group img {
+  width: 30%;
+  padding: 12px;
+}
+
+#links {
+  text-align: center;
+  margin: auto;
+}
+
+#links a {
+  color: white;
+  font-size: x-large;
+  padding: 0 0.1em;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+#links a:hover {
+  color: lightskyblue;
+  font-size: xx-large;
+}
+
+footer {
+  grid-column: span 12;
+  padding: 0 0 16px 16px;
+}
