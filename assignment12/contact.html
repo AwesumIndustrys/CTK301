@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trystan Knoll Portfolio - My Works</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+            <a href="index.html"><img src="portfolio_logo.png" alt="Trystan Knoll Portfolio Logo"/></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="about.html" id="link1">About</a></li>
+                <li><a href="portfolio.html" id="link2">Works</a></li>
+                <li><a href="https://drive.google.com/drive/folders/0B3cmOuzSKnG-cVlicFJwYWxkNEk?resourcekey=0-pMZOiUORN2518KSDMg9aOQ&usp=sharing" id="link3">Download</a></li>
+                <li><a href="links.html" id="link4">Links</a></li>
+                <li><a href="contact.html" id="link5">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Contact form</h1>
+            <img src="unconst.gif" alt="animated pixellated construction sign"/>
+            <p>The contact form is a work in progress. Try going to <a href="links.html">one of my social media sites</a> if you want a more direct way to talk to me.</p>
+            <button type="button" class="collapsible">Open form</button>
+            <div id="form">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1SfV73vtRI_ecgNq75HH19CdfR2w9vGhy8nvL-n_94Zg_uA/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </main>
+        <footer>
+            <p>©2024 Knoll Media Group. All rights Reserved.</p>
+        </footer>
+	</div>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg_video">
+             <source src="xmb.mp4" type="video/mp4">
+        </video>
+   </div> 
+   <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        } 
+    </script>
+</body>
+</html>
