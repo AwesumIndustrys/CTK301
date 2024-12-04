@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trystan Knoll Portfolio - My Works</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- Fancybox stuff -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">    
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+            <a href="index.html"><img src="portfolio_logo.png" alt="Trystan Knoll Portfolio Logo"/></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="about.html" id="link1">About</a></li>
+                <li><a href="portfolio.html" id="link2">Works</a></li>
+                <li><a href="https://drive.google.com/drive/folders/0B3cmOuzSKnG-cVlicFJwYWxkNEk?resourcekey=0-pMZOiUORN2518KSDMg9aOQ&usp=sharing" id="link3">Download</a></li>
+                <li><a href="tools.html" id="link4">Tools</a></li>
+                <li><a href="contact.html" id="link5">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>About this website</h1>
+            <p>This website is a portfolio site, meant for my assignments and artworks. This very website is an assignment for one of my university classes. It was initially started on October 14, 2024 with simple sketched and mockups, shown below.</p>
+            <div class="sketches">
+                <a href="site_history/presketch.jpg" data-fancybox="gallery" data-caption="Very early sketches for the portfolio site showing potential designs for the main landing page as well as content pages">
+                    <img src="site_history/thumb/presketch.jpg"/>
+                </a>
+                <a href="site_history/mainpage.jpg" data-fancybox="gallery" data-caption="Mockup for landing page done in Figma. This was the introduction of the chicken nugget sample logo as well as the colored vertical navbar.">
+                    <img src="site_history/thumb/mainpage.jpg"/>
+                </a>
+                <a href="site_history/subpage1.jpg" data-fancybox="gallery" data-caption="Mockup for a potential content page. This showcased an early idea to compress the navbar into a hamburger menu in content pages which has not yet happened. It may return if I decide to make a mobile friendly version of the site.">
+                    <img src="site_history/thumb/subpage1.jpg"/>
+                </a>
+                <a href="site_history/subpage2.jpg" data-fancybox="gallery" data-caption="Mockup for a potential content page. A variant of the previous one, this adds a concept for a floating aside element which has not been implemented. If I ever need an aside I may revisit it though.">
+                    <img src="site_history/thumb/subpage2.jpg"/>
+                </a>
+            </div>
+            <p>I was partly influenced by the website for Cartoon Network Studios which sadly no longer exists and was replaced with a redirect to their recruitment page on Instagram (thanks David Zaslav, you destroyer of dreams). I am thankful that the Internet Archive and the Wayback Machine exists so the site can be preserved in all its whimsy. <a href="https://web.archive.org/web/20230807051010/https://www.cartoonnetworkstudios.com/" target="_blank">(Click here to see it.)</a></p>
+            <p>The first functional prototype was uploaded to GitHub on November 4th. tbc...</p>
+        </main>
+        <footer>
+            <p>©2024 Knoll Media Group. All rights Reserved.</p>
+        </footer>
+	</div>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg_video">
+             <source src="xmb.mp4" type="video/mp4">
+        </video>
+   </div>   
+   <script>   
+    Fancybox.bind("[data-fancybox]", {});
+ </script>
+</body>
+</html>
